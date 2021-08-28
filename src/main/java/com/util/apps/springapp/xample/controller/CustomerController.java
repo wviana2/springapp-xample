@@ -19,7 +19,7 @@ public class CustomerController {
 		custInfo.setOccupation("Physician");
 		custInfo.setMobile("0483736432");
 		custInfo.setGender("Male");
-		
+		custInfo.setIdentificationCard("Driver License");
 		return custInfo;
 	}
 }

@@ -8,6 +8,7 @@ public class CustomerInfo {
 	private String occupation;
 	private String mobile;
 	private String gender;
+	private String identificationCard;
 	
 
 	public String getFirstname() {
@@ -45,5 +46,11 @@ public class CustomerInfo {
 	}
 	public void setGender(String gender) {
 		this.gender = gender;
+	}
+	public String getIdentificationCard() {
+		return identificationCard;
+	}
+	public void setIdentificationCard(String identificationCard) {
+		this.identificationCard = identificationCard;
 	}
 }
