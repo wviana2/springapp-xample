@@ -16,9 +16,9 @@ public class CustomerController {
 		custInfo.setFirstname("Karl");
 		custInfo.setLastname("Schmidt");
 		custInfo.setAddress("Frankfurt, Germany");
-		custInfo.setOccupation("Lawyer");
+		custInfo.setOccupation("Physician");
 		custInfo.setMobile("0483736432");
-		custInfo.setGender("Female");
+		custInfo.setGender("Male");
 		
 		return custInfo;
 	}
