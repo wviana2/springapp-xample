@@ -13,7 +13,7 @@ public class CustomerController {
 	@GetMapping("/customerinfo")
 	public CustomerInfo getCustomerInfo() {
 		CustomerInfo custInfo = new CustomerInfo();
-		custInfo.setFirstname("Karl");
+		custInfo.setFirstname("Fredirick");
 		custInfo.setLastname("Schmidt");
 		custInfo.setAddress("Frankfurt, Germany");
 		custInfo.setOccupation("Physician");
