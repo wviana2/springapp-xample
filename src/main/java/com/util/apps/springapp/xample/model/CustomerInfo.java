@@ -7,6 +7,7 @@ public class CustomerInfo {
 	private String address;
 	private String occupation;
 	private String mobile;
+	private String gender;
 	
 
 	public String getFirstname() {
@@ -38,5 +39,11 @@ public class CustomerInfo {
 	}
 	public void setMobile(String mobile) {
 		this.mobile = mobile;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
 	}
 }
