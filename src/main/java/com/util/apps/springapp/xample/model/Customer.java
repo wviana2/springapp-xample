@@ -1,6 +1,6 @@
 package com.util.apps.springapp.xample.model;
 
-public class CustomerInfo {
+public class Customer {
 
 	private String firstname;
 	private String lastname;
@@ -8,7 +8,23 @@ public class CustomerInfo {
 	private String occupation;
 	private String mobile;
 	private String gender;
-	private String identificationCard;
+	private String idType;
+	
+	public Customer(String firstname, 
+						String lastname, 
+						String address, 
+						String occupation,
+						String mobile, 
+						String gender, 
+						String idType) {
+		this.firstname = firstname;
+		this.lastname = lastname;
+		this.address = address;
+		this.occupation = occupation;
+		this.mobile = mobile;
+		this.gender = gender;
+		this.idType = idType;
+	}
 	
 
 	public String getFirstname() {
@@ -47,10 +63,10 @@ public class CustomerInfo {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	public String getIdentificationCard() {
-		return identificationCard;
+	public String getIdType() {
+		return idType;
 	}
-	public void setIdentificationCard(String identificationCard) {
-		this.identificationCard = identificationCard;
+	public void setIdType(String idType) {
+		this.idType = idType;
 	}
 }
